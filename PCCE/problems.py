@@ -45,18 +45,18 @@ print(k)
 # 변수 스왑 이용 
 # 1. 다 잘라서 조각으로 만듦 -> 2. 위치를 바꿈 
 
-# # 6.
-# x = 'abcdef'
-# y = 'ghijkl'
-# z = [0] * (len(x) + len(y)) # 0 또는 None
-# z[::2] = x # 0, 2, 4, .... <- x 
-# z[1::2] = y # 1, 3, 5, ... <- y
-# answer = ''.join(z)
-# print(answer)
+# 6.
+x = 'abcdef'
+y = 'ghijkl'
+z = [0] * (len(x) + len(y)) # 0 또는 None
+z[::2] = x # 0, 2, 4, .... <- x 
+z[1::2] = y # 1, 3, 5, ... <- y
+answer = ''.join(z)
+print(answer)
 
 #7
 # 0015 # 14.52
 x = 15
 y = 14.52142
 
-
+print("%04d%7.2f" % (x, y))

@@ -101,7 +101,7 @@ print()
 # zip을 이용한 for 문 - 같은 인덱스끼리만 반복
 for i, j in zip(a, b):
     print(i, j)
-print()
+print() 
 
 # enumerate을 이용한 for 문(zip과 비슷) - 값과 인덱스를 동시에 반복
 x = [10, 20, 30, 40, 50]
@@ -183,7 +183,7 @@ print()
 
 # 0 2 4 6 8 ... 18 를 요소로 가지는 리스트를 만들어보자.
 x = []
-for i in range(10): #for in range(0, 20, 2)
+for i in range(10): #for i in range(0, 20, 2)
     x.append(2*i)
 print(x)
 
@@ -201,4 +201,3 @@ x = None # None은 Falsy 값
 if not x: # (not) Falsy 값이면 강제로 0으로 값을 변경
     x = 0
 print(x)
-
